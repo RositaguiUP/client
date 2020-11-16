@@ -1,13 +1,89 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  padding-top: 50px;
+  background-color: #2b292c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/************************************************************
+/*General components*/
+/*img {
+  border-radius: 10%;
+}*/
+
+/************************************************************
+/*Components*/
+.navPok {
+  background-color: #d93d59;
+  color: aliceblue;
+}
+
+.btnPok {
+  width: 200px;
+  height: 200px;
+}
+
+.divBg {
+  background-color: transparent;
+  flex: 1;
+  color: aliceblue;
+}
+
+.imgPokes {
+  height: 150px;
+  width: 150px;
+}
+
+.imgPokemon {
+  height: 200px;
+  width: 200px;
+}
+/************************************************************
+/*Aspect*/
+
+/*****************************
+/*Padding*/
+.pd50 {
+  padding: 50px;
+}
+
+/*****************************
+/*Border*/
+.brd10 {
+  padding: 10px;
+}
+
+/*Colors*/
+
+.fntColWht {
+  color: white;
+}
+
+.fntColDrk {
+  color: hsl(229, 25%, 31%);
+}
+
+.fntColScr {
+  color: hsl(229, 64%, 46%);
+}
+
+.fntColHdr {
+  color: hsl(217, 16%, 45%);
 }
