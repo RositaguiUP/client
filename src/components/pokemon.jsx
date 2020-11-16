@@ -24,6 +24,7 @@ class Pokemon extends Component {
                     <p><b>Height:</b> {pokemon.height}</p>
                 </section>
                 <p><b>Abilities:</b> {pokemon.abilities}</p>
+                <p><b>Moves:</b> {pokemon.moves}</p>
                 <br/>
                 <br/>
             </React.Fragment>
